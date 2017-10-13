@@ -1,0 +1,106 @@
+@font-face {
+  font-family: sf;
+  src: url(../fonts/sf-font/SF-Pro-Text-Regular.otf); }
+
+@font-face {
+  font-family: sf-b;
+  src: url(../fonts/sf-font/SF-Pro-Text-Bold.otf); }
+
+@font-face {
+  font-family: sf-i;
+  src: url(../fonts/sf-font/SF-Pro-Text-Italic.otf); }
+
+@font-face {
+  font-family: nf;
+  src: url(../fonts/NotoSerif-Regular.otf); }
+
+body {
+  font-family: sf;
+  color: #1B1B1B; }
+
+.btn {
+  border-radius: 0; }
+
+.form-control {
+  border-radius: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.navbar {
+  background-color: black; }
+  .navbar .navbar-brand {
+    text-transform: uppercase; }
+  .navbar .nav-link {
+    font-family: nf;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+  .navbar .nav-item.active {
+    border-bottom: 1px solid red; }
+    .navbar .nav-item.active .nav-link {
+      color: red; }
+
+#breadcrumb {
+  font-size: 14px; }
+  #breadcrumb .breadcrumb {
+    background-color: transparent;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 0px; }
+  #breadcrumb .breadcrumb-item a {
+    color: black; }
+  #breadcrumb .breadcrumb-item.active {
+    color: black;
+    font-family: sf-b; }
+  #breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: ">"; }
+
+#order-section {
+  margin-top: 40px; }
+  #order-section form .btn {
+    border-radius: 0;
+    padding: 1rem 6rem; }
+  #order-section h6 {
+    font-family: sf-b;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 1px dashed #686868;
+    padding-bottom: 15px;
+    margin-bottom: 30px; }
+  #order-section .form-group {
+    padding-right: .8rem; }
+  #order-section label {
+    font-size: 14px;
+    color: #686868; }
+  #order-section .list-group .list-group-item {
+    background-color: #FDF9F8;
+    border: 0;
+    padding: 15px;
+    border-top: 1px dashed #CCCCCC; }
+  #order-section .list-group .title {
+    font-family: sf;
+    font-weight: bold; }
+
+#order-section th {
+  padding: 0.5rem;
+  text-align: left;
+  background-color: #FDF9F8;
+  font-family: sf-b;
+  font-size: 14px; }
+
+#order-section td {
+  vertical-align: middle; }
+
+#order-section .title {
+  font-family: nf; }
+
+#order-section .description {
+  font-size: .9em; }
+
+footer {
+  margin-top: 80px;
+  height: 200px;
+  background-color: black; }
