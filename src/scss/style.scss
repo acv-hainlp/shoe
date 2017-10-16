@@ -1,6 +1,7 @@
 // Main Sass File
 $gray-color: #CCCCCC;
-$light-black: #1B1B1B;
+$light-black: rgb(56, 56, 56);
+$light-yellow: #FDF9F8;
 
 @font-face {
     font-family: sf;
@@ -148,6 +149,14 @@ a {
 
     td {
         vertical-align: middle;
+
+        input {
+            width: 50px;
+        }
+    }
+
+    a {
+      font-size: 1.5rem;  
     }
 
     .title {
@@ -157,6 +166,38 @@ a {
     .description {
         font-size: .9em;
     }
+
+    img {
+        width: 80px;
+    }
+
+    tfoot{
+        background-color:  $light-yellow;
+        font-family: sf-b;
+        font-size: 90%;
+    }
+}
+
+#cart-info-section {
+   font-size:80%;
+   color: $light-black;
+
+   .container {
+    background-color: $light-yellow;
+   }
+
+   i {
+       margin-right: 10px;
+   }
+
+   .h6 {
+       margin-bottom: 20px;
+   }
+
+}
+
+#navigate-section {
+ 
 }
 
 footer {

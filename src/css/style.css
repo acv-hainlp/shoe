@@ -16,7 +16,7 @@
 
 body {
   font-family: sf;
-  color: #1B1B1B; }
+  color: #383838; }
 
 .btn {
   border-radius: 0; }
@@ -93,12 +93,35 @@ a {
 
 #order-section td {
   vertical-align: middle; }
+  #order-section td input {
+    width: 50px; }
+
+#order-section a {
+  font-size: 1.5rem; }
 
 #order-section .title {
   font-family: nf; }
 
 #order-section .description {
   font-size: .9em; }
+
+#order-section img {
+  width: 80px; }
+
+#order-section tfoot {
+  background-color: #FDF9F8;
+  font-family: sf-b;
+  font-size: 90%; }
+
+#cart-info-section {
+  font-size: 80%;
+  color: #383838; }
+  #cart-info-section .container {
+    background-color: #FDF9F8; }
+  #cart-info-section i {
+    margin-right: 10px; }
+  #cart-info-section .h6 {
+    margin-bottom: 20px; }
 
 footer {
   margin-top: 80px;
