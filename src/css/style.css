@@ -123,6 +123,42 @@ a {
   #cart-info-section .h6 {
     margin-bottom: 20px; }
 
+#collection-section h3 {
+  text-transform: uppercase;
+  margin-bottom: 1em; }
+
+#collection-section h1 {
+  font-family: nf;
+  color: black; }
+
+#collection-section a {
+  color: #CCCCCC;
+  text-decoration: none;
+  font-family: nf;
+  font-size: 1.3rem;
+  transition: color .5s; }
+
+#collection-section a:hover {
+  color: red; }
+
+#collection-section .product-image {
+  background-color: #FDF9F8; }
+
+#collection-section .product-info h6 {
+  margin-bottom: 1rem; }
+
+#collection-section .product-info h3 {
+  font-family: nf; }
+
+#collection-section .product-info .price {
+  font-family: sf-b;
+  margin-bottom: 20px; }
+
+#collection-section .product-info .card {
+  background-color: #FDF9F8;
+  border: 0;
+  border-left: 20px solid white; }
+
 footer {
   margin-top: 80px;
   height: 200px;

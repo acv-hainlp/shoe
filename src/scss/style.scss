@@ -2,7 +2,6 @@
 $gray-color: #CCCCCC;
 $light-black: rgb(56, 56, 56);
 $light-yellow: #FDF9F8;
-
 @font-face {
     font-family: sf;
     src: url(../fonts/sf-font/SF-Pro-Text-Regular.otf);
@@ -23,14 +22,12 @@ $light-yellow: #FDF9F8;
     src: url(../fonts/NotoSerif-Regular.otf);
 }
 
-
 body {
     font-family: sf;
     color: $light-black;
 }
 
 // rewrite bootrap
-
 .btn {
     border-radius: 0;
 }
@@ -45,84 +42,71 @@ a {
 }
 
 // app css
-
 .navbar {
     background-color: black;
-
     .navbar-brand {
         text-transform: uppercase;
     }
-
     .nav-link {
         font-family: nf;
-        font-size:14px;
+        font-size: 14px;
         text-transform: uppercase;
         padding-left: 1em !important;
         padding-right: 1em !important;
     }
-    
     .nav-item.active {
         border-bottom: 1px solid red;
-        .nav-link { color: red }
+        .nav-link {
+            color: red
+        }
     }
 }
 
-
 #breadcrumb {
     font-size: 14px;
-
     .breadcrumb {
         background-color: transparent;
         border-bottom: 1px solid $gray-color;
         border-radius: 0px;
     }
-
     .breadcrumb-item {
         a {
             color: black;
         }
     }
-
     .breadcrumb-item.active {
         color: black;
         font-family: sf-b;
     }
-
-    .breadcrumb-item + .breadcrumb-item::before {
+    .breadcrumb-item+.breadcrumb-item::before {
         content: ">"
     }
 }
 
 #order-section {
     margin-top: 40px;
-    
     form {
         .btn {
             border-radius: 0;
             padding: 1rem 6rem;
         }
     }
-    
-
     h6 {
         font-family: sf-b;
-        font-size:15px;
+        font-size: 15px;
         text-transform: uppercase;
         color: black;
         border-bottom: 1px dashed rgb(104, 104, 104);
         padding-bottom: 15px;
         margin-bottom: 30px;
     }
-
     .form-group {
         padding-right: .8rem;
     }
-
     label {
         font-size: 14px;
         color: rgb(104, 104, 104);
     }
-
     .list-group {
         .list-group-item {
             background-color: #FDF9F8;
@@ -130,7 +114,6 @@ a {
             padding: 15px;
             border-top: 1px dashed $gray-color;
         }
-
         .title {
             font-family: sf;
             font-weight: bold;
@@ -146,54 +129,86 @@ a {
         font-family: sf-b;
         font-size: 14px;
     }
-
     td {
         vertical-align: middle;
-
         input {
             width: 50px;
         }
     }
-
     a {
-      font-size: 1.5rem;  
+        font-size: 1.5rem;
     }
-
     .title {
         font-family: nf;
     }
-
     .description {
         font-size: .9em;
     }
-
     img {
         width: 80px;
     }
-
-    tfoot{
-        background-color:  $light-yellow;
+    tfoot {
+        background-color: $light-yellow;
         font-family: sf-b;
         font-size: 90%;
     }
 }
 
 #cart-info-section {
-   font-size:80%;
-   color: $light-black;
+    font-size: 80%;
+    color: $light-black;
+    .container {
+        background-color: $light-yellow;
+    }
+    i {
+        margin-right: 10px;
+    }
+    .h6 {
+        margin-bottom: 20px;
+    }
+}
 
-   .container {
-    background-color: $light-yellow;
-   }
+#collection-section {
+    h3 {
+        text-transform: uppercase;
+        margin-bottom: 1em;
+    }
+    h1 {
+        font-family: nf;
+        color: black;
+    }
+    a {
+        color: $gray-color;
+        text-decoration: none;
+        font-family: nf;
+        font-size: 1.3rem;
+        transition: color .5s;
+    }
+    a:hover {
+        color: red;
+    }
+    .product-image {
+        background-color: $light-yellow;
+    }
+    .product-info {
+        
+        h6 {
+            margin-bottom: 1rem;
+        }
+        h3 {
+            font-family: nf;
+        }
+        .price {
+            font-family: sf-b;
+            margin-bottom: 20px;
+        }
 
-   i {
-       margin-right: 10px;
-   }
-
-   .h6 {
-       margin-bottom: 20px;
-   }
-
+        .card {
+            background-color: $light-yellow;
+            border: 0;
+            border-left: 20px solid white;
+        }
+    }
 }
 
 footer {
