@@ -1,7 +1,7 @@
 // Main Sass File
 $gray-color: #CCCCCC;
 $light-black: rgb(56, 56, 56);
-$light-yellow: #FDF9F8;
+$light-yellow: #fafafa;
 @font-face {
     font-family: sf;
     src: url(../fonts/sf-font/SF-Pro-Text-Regular.otf);
@@ -169,6 +169,7 @@ a {
 }
 
 #collection-section {
+
     h3 {
         text-transform: uppercase;
         margin-bottom: 1em;
@@ -189,8 +190,19 @@ a {
     }
     .product-image {
         background-color: $light-yellow;
+        
+        img {
+            width: 400px;
+        }
     }
+    
     .product-info {
+        background-color: $light-yellow;
+
+        .btn {
+            padding: 1em 5em;
+        }
+
         
         h6 {
             margin-bottom: 1rem;
@@ -201,12 +213,20 @@ a {
         .price {
             font-family: sf-b;
             margin-bottom: 20px;
+            font-size: 200%;
         }
 
         .card {
             background-color: $light-yellow;
             border: 0;
             border-left: 20px solid white;
+            border-right: 20px solid white;
+            height: 100%;
+
+            .card-img-top {
+                width: 80%;
+                margin: 0 auto;
+            }
         }
     }
 }
@@ -216,3 +236,4 @@ footer {
     height: 200px;
     background-color: black;
 }
+

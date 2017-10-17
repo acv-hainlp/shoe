@@ -109,7 +109,7 @@ a {
   width: 80px; }
 
 #order-section tfoot {
-  background-color: #FDF9F8;
+  background-color: #fafafa;
   font-family: sf-b;
   font-size: 90%; }
 
@@ -117,7 +117,7 @@ a {
   font-size: 80%;
   color: #383838; }
   #cart-info-section .container {
-    background-color: #FDF9F8; }
+    background-color: #fafafa; }
   #cart-info-section i {
     margin-right: 10px; }
   #cart-info-section .h6 {
@@ -142,22 +142,31 @@ a {
   color: red; }
 
 #collection-section .product-image {
-  background-color: #FDF9F8; }
+  background-color: #fafafa; }
+  #collection-section .product-image img {
+    width: 400px; }
 
-#collection-section .product-info h6 {
-  margin-bottom: 1rem; }
-
-#collection-section .product-info h3 {
-  font-family: nf; }
-
-#collection-section .product-info .price {
-  font-family: sf-b;
-  margin-bottom: 20px; }
-
-#collection-section .product-info .card {
-  background-color: #FDF9F8;
-  border: 0;
-  border-left: 20px solid white; }
+#collection-section .product-info {
+  background-color: #fafafa; }
+  #collection-section .product-info .btn {
+    padding: 1em 5em; }
+  #collection-section .product-info h6 {
+    margin-bottom: 1rem; }
+  #collection-section .product-info h3 {
+    font-family: nf; }
+  #collection-section .product-info .price {
+    font-family: sf-b;
+    margin-bottom: 20px;
+    font-size: 200%; }
+  #collection-section .product-info .card {
+    background-color: #fafafa;
+    border: 0;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    height: 100%; }
+    #collection-section .product-info .card .card-img-top {
+      width: 80%;
+      margin: 0 auto; }
 
 footer {
   margin-top: 80px;
